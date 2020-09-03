@@ -6,7 +6,7 @@ class Tree{
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
-      this.image = loadImage("sprites/tree.jpg");
+      this.image = loadImage("Sprites/tree.jpg");
       //World.add(world, this.body);
     }
     display(){

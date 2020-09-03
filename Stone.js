@@ -8,7 +8,7 @@ class Stone{
       this.body = Bodies.rectangle(x, y, width, height);
       this.width = width;
       this.height = height;
-      this.image = loadImage("sprites/stone.jpg");
+      this.image = loadImage("Sprites/stone.jpg");
       World.add(world, this.body);
     }
     display(){
